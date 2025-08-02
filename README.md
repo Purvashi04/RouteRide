@@ -6,7 +6,7 @@
 
 ## Features
 
-- **User Registration**: Riders can register with their name and ID.
+- **User Registration**: Riders can register with their name and ID. 
 - **Driver and Vehicle Details**: Preloaded drivers with vehicle registration and types.
 - **Location-Based Rides**: Choose from predefined locations to start and end your ride.
 - **Fare Calculation**: Charges ₹20 per kilometer based on location distances.
