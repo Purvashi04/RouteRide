@@ -54,12 +54,22 @@ RouteRide/
 │
 ├── main.cpp           # Main C++ source file
 ├── driver_XXX_history.txt  # Generated ride history files for drivers
-├── README.md          # You're reading it!
+├── README.md          # Project Documentation
 
 ---
 
-## Sample Output
-```bash
+**## Sample Output**
+--------------RouteRide Selection-------------
+1) Register Ride
+2) Request Ride
+3) Show Rider History
+4) Show Driver History
+5) Save Driver History
+6) Exit
+Enter choice: 1
+Enter name and ID: Alice 201
+Rider Registered Successfully.
+
 --------------RouteRide Selection-------------
 1) Register Ride
 2) Request Ride
@@ -68,9 +78,33 @@ RouteRide/
 5) Save Driver History
 6) Exit
 Enter choice: 2
-Select Rider Index: 0: Alice
+Select Rider Index:
+0: Alice
 Enter source index: 1
 Enter destination index: 3
 Ride Started.
-Ride Ended.
+Ride ended.
+
+--------------RouteRide Selection-------------
+1) Register Ride
+2) Request Ride
+3) Show Rider History
+4) Show Driver History
+5) Save Driver History
+6) Exit
+Enter choice: 3
+
+Ride history for Rider: Alice
+FromMG Road to Bellary Road | Price: Rs. 180
+
+--------------RouteRide Selection-------------
+Enter choice: 4
+
+Driver: Rahul, ID: 101
+Vehicle: Tata Tiago | Reg#: KA 03 AB 1234
+Unavailable
+
+Ride history for Driver: Rahul
+FromMG Road to Bellary Road | Price: Rs. 180
+
 
