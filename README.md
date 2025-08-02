@@ -48,8 +48,6 @@
 ---
 
 ## File Structure 
-
-```bash
 RouteRide/
 │
 ├── main.cpp           # Main C++ source file
@@ -58,7 +56,7 @@ RouteRide/
 
 ---
 
-**## Sample Output**
+## Sample Output
 --------------RouteRide Selection-------------
 1) Register Ride
 2) Request Ride
